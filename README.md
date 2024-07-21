@@ -10,17 +10,13 @@ DSPy in the context of Stanford NLP could be referring to a Python-based impleme
 
 Here are some key components and steps to integrate Stanford NLP tools with Python:
 
-    StanfordNLP Library: Stanford provides an official Python wrapper called stanfordnlp. This library allows easy access to Stanford's CoreNLP tools.
+StanfordNLP Library: Stanford provides an official Python wrapper called stanfordnlp. This library allows easy access to Stanford's CoreNLP tools.
 
-        Installation:
+Installation:
 
-        bash
-
-pip install stanfordnlp
+    pip install stanfordnlp
 
 Usage:
-
-python
 
     import stanfordnlp
 
@@ -38,11 +34,9 @@ python
 
 Stanford CoreNLP Server: Another way to use Stanford NLP tools in Python is by setting up the Stanford CoreNLP server and interacting with it through HTTP requests. This can be done using the stanfordnlp library or the Stanza library, which is also developed by Stanford.
 
-    Installation and Setup:
+Installation and Setup:
         Download Stanford CoreNLP from the official website.
         Start the CoreNLP server:
-
-        bash
 
     java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000
 
@@ -51,7 +45,7 @@ Usage with Python:
 
     import requests
 
-    text = "Barack Obama was born in Hawaii. He was elected president in 2008."
+    text = "Narendra Modi is the most followed Leader"
     url = 'http://localhost:9000'
     params = {
         'annotators': 'tokenize,ssplit,pos,lemma,ner,parse,dcoref',
