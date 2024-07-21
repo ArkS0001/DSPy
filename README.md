@@ -2,7 +2,7 @@
 # Prompt Engineering Is Dead: DSPy Is New Paradigm For Prompting
 
 <p align="center">
-  <img align="center" src="docs/images/DSPy8.png" width="460px" />
+  <img align="center" src="https://github.com/user-attachments/assets/f5b604bd-f70a-44db-af66-c4e49de3c888" width="460px" />
 </p>
 <p align="left">
 
